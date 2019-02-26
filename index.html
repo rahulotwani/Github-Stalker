@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+
+      <title>GitHub Stalker</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="content-type" content="text/html;" charset="UTF-8">
+      <meta name = "description" content="Check your activity on GitHub">
+      <meta name = "keywords" content="GitHub, Activity, Repositories, GitHub-Profile">
+      <meta name = "author" content="RAHUL OTWANI">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="icon" type="image/png" href="static/images/favicon.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/7.3.0/build.css">
+    </head>
+
+    <body>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo center">GitHub Stalker</a>
+          <ul class="left hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+        <nav>
+            <div class="nav-wrapper teal">
+                <form>
+                <div class="input-field">
+                    <input id="searchUser" type="search" placeholder = "Enter GitHub username" required autofocus>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+                </form>
+            </div>
+        </nav>
+      <br> <br>
+      <div id="profile"></div>
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src = "js/main.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('.modal').modal();
+      });
+
+       $(document).ready(function(){
+        $('.tooltipped').tooltip();
+      });
+    </script>
+    </body>
+  </html>

@@ -1,0 +1,41 @@
+body {
+  font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,
+            sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.avatar{
+    width:350px;
+    height:auto;
+  }
+
+#details{
+  margin: 20px;
+  width: 100%;
+}
+
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
+
+#thankyou_message{
+  margin: 20px;
+}
+
+.material-icons, .icon-text {
+  vertical-align: middle !important;
+  padding-bottom: 3px;
+}
+
+.left-button{
+  left: 5px;
+  right: auto;
+  bottom: 20px;
+ }
+
+ .ui-btn-top-hide {
+	position: fixed;
+	bottom: 20px;
+	right: 5px;
+  display: none;
+  opacity: '0.1';
+}
