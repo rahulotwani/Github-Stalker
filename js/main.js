@@ -11,8 +11,8 @@ $(document).ready(function(){
         $.ajax({
             url: 'https://api.github.com/users/' + username,
             data:{
-                client_id:'f7a2c629ce3110fbf13d',
-                client_secret:'bc3d989098f1595ad9864e1642975afa09b3b07a'
+                client_id:'aae2b6a7048aa7f13048',
+                client_secret:'29e07c8279cc434f282bd2071a09013c330f3c46'
             },
             beforeSend: function(){
                 $('#profile').html(`
@@ -27,8 +27,8 @@ $(document).ready(function(){
             $.ajax({
                 url : 'https://api.github.com/users/' + username + '/events',
                 data: {
-                    client_id:'f7a2c629ce3110fbf13d',
-                    client_secret:'bc3d989098f1595ad9864e1642975afa09b3b07a'
+                  client_id:'aae2b6a7048aa7f13048',
+                  client_secret:'29e07c8279cc434f282bd2071a09013c330f3c46'
                 },
                 beforeSend: function(){
                     $('#activities').html(`<div class="container" id="loader2">` + loader
